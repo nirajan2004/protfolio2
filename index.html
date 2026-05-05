@@ -176,15 +176,18 @@ nav.sc { border-color:var(--border);background:rgba(8,9,14,0.85);backdrop-filter
 .cc:hover { border-color:var(--gold);color:var(--gold);transform:translateY(-4px); }
 
 /* FOOTER */
-footer { border-top:1px solid var(--border);padding:2rem 4rem;display:flex;justify-content:space-between;align-items:center; }
-.footer-logo { font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--muted); }
-.footer-logo em { color:var(--gold);font-style:normal; }
-.footer-copy { font-size:.65rem;letter-spacing:.1em;color:var(--muted); }
+<footer>
+  <div class="footer-logo">Nirajan <em>Dey</em></div>
+  <div class="footer-copy">© 2025 · B.Tech CSE · KIIT Deemed University</div>
 
-/* BG GRID */
-.bg-grid { position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(255,255,255,.016) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.016) 1px,transparent 1px);background-size:80px 80px; }
-canvas { position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.3; }
-
+  <div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTzc24uH7prjcIyzqUirkU_NjNVvldVqLkNmGNNENn5MxiCA/viewform?usp=sharing&ouid=102217087681499629308" 
+       target="_blank" 
+       class="contact-btn">
+       Contact
+    </a>
+  </div>
+</footer>
 /* RESPONSIVE */
 @media(max-width:768px) {
   nav{padding:1.2rem 1.5rem}
